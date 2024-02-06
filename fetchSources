@@ -1,0 +1,11 @@
+#!/bin/sh
+mkdir /root/source
+curl -o /root/source/linux-6.7 https://codeload.github.com/torvalds/linux/tar.gz/refs/tags/v6.7
+curl -o /root/source/busybox-1.36.1 https://www.busybox.net/downloads/busybox-1.36.1.tar.bz2
+#curl -o /root/source/neovim-0.9.5 https://codeload.github.com/neovim/neovim/tar.gz/refs/tags/v0.9.5
+
+cd /root/source/
+pwd
+tar -xf linux-6.7
+tar -xf busybox-1.36.1
+cd /work-files

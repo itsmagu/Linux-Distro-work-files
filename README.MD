@@ -2,7 +2,7 @@ This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 # Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
-TODO: move to make (I am just lazy)
+TODO: move to make (I am just lazy, but lot of files are messy)
 # Running
 I run with Qemu on a Windows host
 
