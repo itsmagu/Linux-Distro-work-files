@@ -1,0 +1,6 @@
+#!/bin/sh
+echo "----------Building CPIO-----------"
+echo "initramfs > init.cpio"
+rm ./build/init.cpio
+cd initramfs
+find . -print0 | cpio --null -o -H newc >../build/init.cpio

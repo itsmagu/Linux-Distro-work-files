@@ -1,0 +1,12 @@
+#!/bin/sh
+echo "----------Rebuilding Initramfs with busybox-----------"
+rm -fR /work-files/initramfs/*
+cd /root/source/busybox-1.36.1/
+pwd
+make CONFIG_PREFIX=/work-files/initramfs install
+cd /work-files/initramfs
+rm linuxrc
+echo "#!/bin/sh" >init
+echo "/bin/sh" >>init
+chmod +x init
+cd /work-files

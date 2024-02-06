@@ -1,0 +1,9 @@
+#!/bin/sh
+echo "----------Updating bzImage-----------"
+cd /root/source/linux-6.7
+pwd
+make menuconfig
+make -j 12
+rm -v /work-files/build/bzImage
+cp -v /root/source/linux-6.7/arch/x86/boot/bzImage /work-files/build/
+cd /work-files

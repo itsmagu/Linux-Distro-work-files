@@ -1,0 +1,22 @@
+#!/bin/sh
+
+echo "----------Create/Mount/Populate Boot File-----------"
+echo "dd mkfs syslinux a bootfile!"
+cd ./build
+pwd
+rm -f boot
+dd if=/dev/zero of=boot bs=1M count=50
+mkfs -t fat boot
+syslinux boot
+
+echo "initramfs > mnt <==> boot"
+cd ..
+pwd
+mount -v ./build/boot mnt
+ls mnt
+rm -fv mnt/bzImage
+rm -fv mnt/init.cpio
+cp -rv ./bootDir/* mnt
+cp -v build/bzImage build/init.cpio mnt
+ls mnt
+umount -v mnt

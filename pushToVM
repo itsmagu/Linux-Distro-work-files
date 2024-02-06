@@ -1,0 +1,4 @@
+#!/bin/sh
+echo "----------Pushing to Host System for Launch-----------"
+rm -v /mnt/c/VM/boot
+cp -v build/boot /mnt/c/VM/boot
