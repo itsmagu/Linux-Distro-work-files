@@ -1,7 +1,7 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 # Building
-```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```
+```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
 TODO: move to make (I am just lazy)
 # Running
 I run with Qemu on a Windows host
@@ -10,7 +10,7 @@ I run with Qemu on a Windows host
 ```qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1G```
 
 ## Prerequisites
-I use ArchLinux as the bootstrap system in WSL on windows (Google the repo for ArchWSL)
+I use ArchLinux as the bootstrap system in WSL on windows (Google the repo for ArchWSL)<br>
 All Packages from my system (Even useless ones):
 ```
 arch-install-scripts 28-1
