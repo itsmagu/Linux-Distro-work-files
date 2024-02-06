@@ -1,4 +1,4 @@
-This is stable, but not production ready in any way.
+This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 # Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```
