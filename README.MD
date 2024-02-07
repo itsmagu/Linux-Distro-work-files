@@ -12,7 +12,6 @@ you throw in some SDL2 in it. As of writing this, I have no real plan other then
 under the hood. I'll strip the kernel some more and maybe move this into a raspberry pi console... <br>
 
 # Building
-```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
 In order: <br>
 ```
 ./initalize
