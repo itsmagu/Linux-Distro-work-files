@@ -18,7 +18,7 @@ In Bootstarp System (ArchWSL): <br>
 ```git clone https://github.com/itsmagu/Not-LFS /work-files/```
 In order: <br>
 ```
-./initalize
+sh ./initalize
 ./fetchSources
 ./buildKernel
 ./buildInitramfs
