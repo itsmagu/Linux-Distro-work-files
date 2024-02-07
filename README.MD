@@ -1,17 +1,28 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
-# Building
+# Buildinqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gg
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
+In order: <br>
+```
+./initalize
+./fetchSources
+./buildKernel
+./buildInitramfs
+./buildCpio
+./copyToBootFile
+./pushToVM
+```
+<br>
 TODO: move to make (I am just lazy, but lot of files are messy)
 # Running
-I run with Qemu on a Windows host
+I run with Qemu on a Windows hostqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1G
 
 ### Arguments:
 ```qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1G```
 
 ## Prerequisites
 I use ArchLinux as the bootstrap system in WSL on windows (Google the repo for ArchWSL)<br>
-All Packages from my system (Even useless ones):
+All Packages from my system (Even useless ones)(That is not included in ArchWSL by normal):
 ```
 arch-install-scripts 28-1
 base 3-2
@@ -21,7 +32,7 @@ bc 1.07.1-4
 bison 3.8.2-6
 bottom 0.9.6-1
 clang 16.0.6-2
-cmake 3.28.2-1
+cqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1GGmake 3.28.2-1
 cpio 2.15-1
 devtools 1:1.0.4-1
 dosfstools 4.2-3
