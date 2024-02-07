@@ -1,7 +1,7 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 
-![](https://media.discordapp.net/attachments/1087706802612867084/1204588372631494656/linuxinashell.gif)
+![](docs/img/linuxinashell.gif)
 # Not Linux From Scratch
 This is a fun hobby project where I have made some scripts for quick and easy creation and booting
 of a linux kernel and inital file system. It's super small and fast, infact the gif right above
