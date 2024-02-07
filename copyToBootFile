@@ -5,7 +5,7 @@ echo "dd mkfs syslinux a bootfile!"
 cd ./build
 pwd
 rm -f boot
-dd if=/dev/zero of=boot bs=1M count=50
+dd if=/dev/zero of=boot bs=1M count=16
 mkfs -t fat boot
 syslinux boot
 
