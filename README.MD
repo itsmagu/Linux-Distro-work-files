@@ -1,5 +1,8 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
+
+![Alt Text](https://cdn.discordapp.com/attachments/1087706802612867084/1204588372631494656/linuxinashell.gif)
+
 # Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
 In order: <br>
