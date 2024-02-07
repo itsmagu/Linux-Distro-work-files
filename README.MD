@@ -2,6 +2,14 @@ This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 
 ![](https://media.discordapp.net/attachments/1087706802612867084/1204588372631494656/linuxinashell.gif)
+# Not Linux From Scratch
+This is a fun hobby project where I have made some scripts for quick and easy creation and booting <br>
+of a linux kernel and inital file system. It's super small and fast, infact the gif right above <br>
+competes with both file size and time to complete/boot! No, but seriously it's super fast and small. <br>
+Beware though, there is not init system (systemd/openRC/runit). No real folder structure (no /proc /var /dev). <br>
+But it is amazing at running only one thing and could be used as a base for a new distro or a gaming console if <br>
+you throw in some SDL2 in it. As of writing this, I have no real plan other then exploring how this all works <br>
+under the hood. I'll strip the kernel some more and maybe move this into a raspberry pi console... <br>
 
 # Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
