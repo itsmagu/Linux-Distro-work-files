@@ -12,10 +12,10 @@ In order: <br>
 ./copyToBootFile
 ./pushToVM
 ```
-<br>
-TODO: move to make (I am just lazy, but lot of files are messy)<br>
+TODO: move to make (I am just lazy, but lot of files are messy) <br>
+
 # Running
-I run with Qemu on a Windows host:<br>
+I run with Qemu on a Windows host: <br>
 ```qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1G```
 
 ## Prerequisites
