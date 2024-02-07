@@ -13,7 +13,7 @@ In order: <br>
 ./pushToVM
 ```
 <br>
-TODO: move to make (I am just lazy, but lot of files are messy)
+TODO: move to make (I am just lazy, but lot of files are messy)<br>
 # Running
 I run with Qemu on a Windows host:<br>
 ```qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1G```
@@ -30,7 +30,7 @@ bc 1.07.1-4
 bison 3.8.2-6
 bottom 0.9.6-1
 clang 16.0.6-2
-cqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1qemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1GGmake 3.28.2-1
+cmake 3.28.2-1
 cpio 2.15-1
 devtools 1:1.0.4-1
 dosfstools 4.2-3
