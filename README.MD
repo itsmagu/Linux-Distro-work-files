@@ -19,7 +19,7 @@ In Bootstarp System (ArchWSL): <br>
 In order: <br>
 ```
 sh ./initalize
-./fetchSources
+./fetchSources # Make sure that Busybox compiles as static (make menuconfig)
 ./buildKernel
 ./buildInitramfs
 ./buildCpio
