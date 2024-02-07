@@ -1,5 +1,7 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
+This is not really that portable either and will litter(mess with files outside of build dir) a system on building.
+And yes, they files are dirty and does alot of BM without a standard or reason. But... it boots!
 
 ![](docs/img/linuxinashell.gif)
 # Not Linux From Scratch
@@ -12,7 +14,8 @@ you throw in some SDL2 in it. As of writing this, I have no real plan other then
 under the hood. I'll strip the kernel some more and maybe move this into a raspberry pi console... <br>
 
 # Building
-```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
+In Bootstarp System (ArchWSL): <br>
+```git clone https://github.com/itsmagu/Not-LFS /work-files/```
 In order: <br>
 ```
 ./initalize

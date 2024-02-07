@@ -1,4 +1,7 @@
 #!/bin/sh
+cd /work-files/
+chmod +x ./*
+chmod -x ./README.MD
 mkdir mnt
 mkdir build
 mkdir initramfs
