@@ -5,6 +5,9 @@ pwd
 cp -v /work-files/bootDir/.config /root/source/linux-6.7/.config
 make menuconfig
 cp -v /root/source/linux-6.7/.config /work-files/bootDir/.config
+echo "------------------------IMPORTANTE-----------------------------"
+echo "Ahoy about to build the kernel, seize all other heavy loads and go outside for a while!"
+echo "-------------------No longer IMPORTANTE------------------------"
 make -j 12
 rm -v /work-files/build/bzImage
 cp -v /root/source/linux-6.7/arch/x86/boot/bzImage /work-files/build/
