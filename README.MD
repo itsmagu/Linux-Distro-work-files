@@ -20,6 +20,9 @@ I run with Qemu on a Windows host: <br>
 
 ## Prerequisites
 I use ArchLinux as the bootstrap system in WSL on windows (Google the repo for ArchWSL)<br>
+The Scripts expect a "C:/VM/" dir on the host windows system for qemu to boot <br>
+and a "root/source" in the WSL system. If you understand how this all works you can <br>
+edit and change the folders or even from ArchWSL and the Windows host setup. <br>
 All Packages from my system (Even useless ones)(That is not included in ArchWSL by normal):
 ```
 arch-install-scripts 28-1
