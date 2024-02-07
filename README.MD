@@ -1,6 +1,6 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
-# Buildinqemu-system-x86_64.exe C:\VM\boot -nographic -serial mon:stdio -m 1Gg
+# Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
 In order: <br>
 ```
