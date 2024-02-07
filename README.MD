@@ -1,7 +1,7 @@
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic for instance
 
-![Alt Text](https://media.discordapp.net/attachments/1087706802612867084/1204588372631494656/linuxinashell.gif?ex=65d54758&is=65c2d258&hm=50ee55c1fc730e518cbadf8498a2a310d1e72bd94f9afe853817e200ba6b34d9&=&width=1163&height=671)
+![](https://media.discordapp.net/attachments/1087706802612867084/1204588372631494656/linuxinashell.gif)
 
 # Building
 ```./buildInitramfs && ./buildCpio && ./buildKernel && ./copyToBootFile && ./pushToVM```<br>
