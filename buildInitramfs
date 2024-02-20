@@ -6,7 +6,6 @@ pwd
 make CONFIG_PREFIX=/work-files/initramfs install
 cd /work-files/initramfs
 rm linuxrc
-echo "#!/bin/sh" >init
-echo "/bin/sh" >>init
+cp /work-files/init /work-files/initramfs/
 chmod +x init
 cd /work-files
