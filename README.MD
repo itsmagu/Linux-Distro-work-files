@@ -44,5 +44,5 @@ arch-install-scripts base base-devel bat bc bison bottom clang cmake cpio devtoo
 ```
 All packages for void (whole install command):
 ```
-xbps-install base-devel bat bc bison bottom clang cmake cpio git curl wget unzip binutils diffutils grep ripgrep jq openssh rsync dosfstools elfutils fd fish-shell flex gdb htop man-db mesa mesa-dri mesa-intel-dri mesa-nouveau-dri mesa-opencl mesa-vulkan-intel mtools neovim ninja nodejs nvtop ranger SDL2 SDL2-devel syslinux tmux xf86-video-fbdev xf86-video-vesa xf86-ideo-nouveau xf86-video-intel zig rustup
+xbps-install base-devel bat bc bison bottom clang cmake cpio git curl wget unzip binutils diffutils grep ripgrep jq openssh rsync dosfstools elfutils fd fish-shell flex htop man-db mesa mesa-dri mesa-intel-dri mesa-nouveau-dri mesa-opencl mesa-vulkan-intel mtools neovim ninja nodejs nvtop ranger SDL2 SDL2-devel syslinux tmux xf86-video-fbdev xf86-video-vesa xf86-ideo-nouveau xf86-video-intel zig rustup
 ```
