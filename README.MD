@@ -1,7 +1,7 @@
 This is stable, but not production ready in any way. <br>
-Exiting the shell will kernel panic for instance.
-THe build process is not really that portable either and will litter(mess with files outside of build dir) a system on building.
-And yes, they files are dirty and does alot of BM without a standard or reason. But... it boots!
+Exiting the shell will kernel panic.
+The build process is not really that portable either and will litter(mess with files outside of build dir) a system on building.
+And I'm aware that the "project" structure is messy, But... it boots! This was hobby thing mostly.
 
 ![](docs/img/linuxinashell.gif)
 # Not Linux From Scratch
