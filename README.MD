@@ -1,3 +1,5 @@
+A Simple collection of scripts to build a super small "distro" that only runs the kernel as a starting point
+
 This is stable, but not production ready in any way. <br>
 Exiting the shell will kernel panic.
 The build process is not really that portable either and will litter(mess with files outside of build dir) a system on building.
